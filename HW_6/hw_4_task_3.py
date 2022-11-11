@@ -17,7 +17,7 @@ def my_set(number_list: list) -> list:
     #         res_lst.append(k)
 
     res_lst = list(filter(lambda x: x if count_dict[x] == 1 else None, list([x[0] for x in count_dict.items()])))
-    # даб четыре строки заменил одной, но меня одолевают смешанные ощущения, глядя на нее))
+    # да, четыре строки заменил одной, но меня одолевают смешанные ощущения, глядя на нее))
     print(res_lst)
     return res_lst
 
